@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EventPraia</string>
+    <string name="dias_restantes_para_o_evento">Dias restantes para o evento</string>
+</resources>
