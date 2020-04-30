@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailsActivity"
+    tools:context=".views.DetailsActivity"
     android:background="@drawable/background"
     android:padding="8dp">
 
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/voc_vai_participar"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:layout_centerHorizontal="true"
         />
     <View
@@ -23,14 +23,17 @@
         android:layout_height="1dp"
         android:background="@color/colorAccent"
         android:layout_below="@+id/textLabelParticipar"
+        android:layout_marginTop="8dp"
         />
     <CheckBox
+        android:id="@+id/checkConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Você vai a Viagem?"
+        android:text="Você vai Participar?"
         android:layout_below="@+id/textLabelParticipar"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:layout_marginTop="160dp"
+        android:textSize="18sp"
         />
 </RelativeLayout>
